@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <div className="app" style={{ transform: `scale(${scale()})  translate(-50%, -50%)` }}>
+      <div className="app" style={{ transform: `scale(${state.scale})  translate(-50%, -50%)` }}>
         <Header />
         <div className="line1">
           <Box1 />
